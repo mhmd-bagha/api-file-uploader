@@ -1,0 +1,14 @@
+{
+  "name": "api-file-uploader/api-file-uploader",
+  "description": "api file uploader",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "mhmd-bagha",
+      "email": "mabrahimibagha@gmail.com"
+    }
+  ],
+  "require": {
+  }
+}
