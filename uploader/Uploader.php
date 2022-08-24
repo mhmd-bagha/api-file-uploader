@@ -4,20 +4,8 @@ namespace Uploader;
 
 class Uploader
 {
-    private string $file_name;
-    private string $file_type;
-    private string $file_name_posted;
-
-    public function __construct($file_name, $file_type, $file_name_posted)
-    {
-        $this->file_name = $file_name;
-        $this->file_type = $file_type;
-        $this->file_name_posted = $file_name_posted;
-    }
-
     public function uploader($file_name, $file_type, $file_name_posted, $url)
     {
-
         $ch = curl_init();
         $file_curl = curl_file_create($file_name, $file_type, $file_name_posted);
         $file_curl = [$file_name_posted => $file_curl];
