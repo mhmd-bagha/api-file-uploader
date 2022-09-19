@@ -1,11 +1,11 @@
 #a api uploader file
 
-##first use composer with install dependency
+## first use composer with install dependency
 
 ## then get the api with the command
 
 ```
-require composer api-file-uploader/api-file-uploader
+composer require api-file-uploader/api-file-uploader
 ```
 
 ## after receiving the api, Create new object class Uploader
@@ -13,7 +13,7 @@ require composer api-file-uploader/api-file-uploader
 $uploader = new Uploader();
 ```
 
-##then call the uploader method and give the arguments
+## then call the uploader method and give the arguments
 ```
 $uploader->uploader($file_name, $file_type, $file_name_posted);
 ```
